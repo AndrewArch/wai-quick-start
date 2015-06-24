@@ -77,6 +77,8 @@ An external website accessibility statement should include details on conformanc
 <%= learn_more %>
 {:/}
 
+Encourage useful feedback (see Contacting Organizations about Inaccessible Websites - http://www.w3.org/WAI/users/inaccessible.html)
+
 {::nomarkdown}
 <%= learn_more :end %>
 {:/}
