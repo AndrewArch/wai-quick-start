@@ -91,7 +91,8 @@ Indicate the primary language of every page by using the `lang` attribute in the
 * **Related Requirement**
   * [3.1.1 Language of Page](/WAI/WCAG20/quickref/#meaning-doc-lang-id) ([Understanding 3.1.1](/TR/UNDERSTANDING-WCAG20/meaning-doc-lang-id.html))
   * [3.1.2 Language of Parts](/WAI/WCAG20/quickref/#meaning-other-lang-id) ([Understanding 3.1.2](/TR/UNDERSTANDING-WCAG20/meaning-other-lang-id.html))
-* **How To**: [Declaring language in HTML](/International/questions/qa-html-language-declarations)
+* **How To**: 
+  * [Declaring language in HTML](/International/questions/qa-html-language-declarations)
 
 {::nomarkdown}
 <%= related_resources :end %>
@@ -137,7 +138,7 @@ Use appropriate mark-up for headings, lists, tables, etc. HTML5 provides additio
     <% html_example do %>
     <form action="">
       <div role="search">
-        <label for="search">Search</label>
+        <label for="search">Search for:</label>
         <input type="search" id="search" aria-describedby="search-help">
         <div id="search-help">Search records by customer id or name</div>
         <button type="submit">Go</button>
@@ -215,7 +216,7 @@ Be as forgiving of format as possible when processing user input. For example, a
 {:.attach_permalink}
 ## Reflect the reading order in the code order
 
-Ensure that the order of elements in the code matches the logical order of the information presented. One way to check this is to remove <abbr>CSS</abbr> styling and review that the order of the content makes sense.
+Ensure that the order of elements in the code matches the logical order of the information presented. One way to check this is to remove <abbr>CSS</abbr> styling and review the the order of the content makes sense.
 
 {::nomarkdown}
 <%= example 'Two approaches to coding presentation of a product' %>
